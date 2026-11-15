@@ -1,4 +1,5 @@
-[README.md](https://github.com/user-attachments/files/34868630/README.md)
+[README.md](https://github.com/user-attachments/files/34868706/README.md)
+
 <div align="center">
 
 # vivid/stasis 全成绩导出工具
@@ -8,7 +9,7 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6?style=flat-square)](#兼容性)
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1-5391FE?style=flat-square)](#兼容性)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen?style=flat-square)](#它是怎么做到的)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](#许可证)
+[![License](https://img.shields.io/badge/license-GPL--3.0-blue?style=flat-square)](#许可证)
 
 [快速开始](#快速开始) · [输出说明](#excel-里有什么) · [常见问题](#常见问题) · [English](#english)
 
@@ -268,6 +269,7 @@ vivid-stasis-score-exporter/
 ├─ Export-VividStasisScores.ps1   主程序（UTF-8 with BOM）
 ├─ 导出成绩.bat                   双击入口
 ├─ README.md                      本说明
+├─ LICENSE                        GPL-3.0 许可证全文
 └─ 导出结果/                      运行后自动生成
 ```
 
@@ -279,11 +281,19 @@ vivid-stasis-score-exporter/
 - 自制谱面 / 特殊难度的曲目资料补全；
 - 新的导出格式（如 Markdown 成绩单、图片卡片）。
 
-提交前请说明游戏版本，并附上一小段可复现的存档样例（注意隐去个人信息）。
+提交前请说明游戏版本，并附上一小段可复现的存档样例（注意隐去个人信息）。提交 PR 即表示你同意以 GPL-3.0 授权你的贡献。
 
 ## 许可证
 
-本项目采用 [MIT License](https://opensource.org/license/mit)。你可以自由使用、修改与分发，保留版权声明即可。
+本项目采用 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)（GPL-3.0）发布，完整条款见仓库根目录的 [`LICENSE`](LICENSE)。
+
+这意味着你可以自由地使用、修改和分发本工具（包括商业使用），但在分发修改后的版本时需要遵守 copyleft 要求：
+
+- 保留版权声明与许可证声明；
+- 提供对应的完整源代码；
+- 衍生作品同样以 GPL-3.0 授权。
+
+如果你只是自己用、或在视频/直播里展示导出的成绩，不受任何额外限制。
 
 ## 免责声明
 
@@ -299,4 +309,4 @@ A zero-dependency PowerShell tool that exports **every** vivid/stasis score from
 .\Export-VividStasisScores.ps1 -Open
 ```
 
-Read-only and offline. Windows only.
+Read-only and offline. Windows only. Licensed under [GPL-3.0](LICENSE).
