@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34868706/README.md)
-
 <div align="center">
 
 # vivid/stasis 全成绩导出工具
@@ -298,15 +296,5 @@ vivid-stasis-score-exporter/
 ## 免责声明
 
 本工具为玩家自制，与 vivid/stasis 开发组及发行商无关。请自行承担使用风险，并定期备份存档。
-
----
-
-## English
-
-A zero-dependency PowerShell tool that exports **every** vivid/stasis score from your local save to Excel, CSV and JSON — song, difficulty, level, constant, charter, score, EX%, FC/AC and more. No Python, no Office, no admin rights; just Windows 10/11's built-in PowerShell 5.1.
-
-```powershell
-.\Export-VividStasisScores.ps1 -Open
-```
 
 Read-only and offline. Windows only. Licensed under [GPL-3.0](LICENSE).
